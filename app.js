@@ -44,7 +44,7 @@ const Dino = function (species, weight, height, diet, where, when, fact) {
 
 /**
  * @description Creates and returns Dino objects
- * @param {[]} dinos
+ * @param {any[]} dinos
  * @returns {Dino[]}
  */
 function createDinoObjects(dinos) {
